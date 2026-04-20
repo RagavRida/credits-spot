@@ -27,6 +27,7 @@ export default function Navbar() {
       <nav className="hidden md:flex items-center gap-7 ml-10 text-xs text-fg-muted">
         <a href="#directory" className="hover:text-fg transition-colors">Directory</a>
         <a href="#strategy" className="hover:text-fg transition-colors">Strategy</a>
+        <a href="#faq" className="hover:text-fg transition-colors">FAQ</a>
         <a href="#waitlist" className="hover:text-fg transition-colors">Changelog</a>
       </nav>
 
