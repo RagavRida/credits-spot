@@ -4,6 +4,8 @@ import { useScroll } from "framer-motion";
 import { useRef } from "react";
 import CanvasPlayer from "./CanvasPlayer";
 import CopyOverlay from "./CopyOverlay";
+import ScrollHint from "./ScrollHint";
+import ScrollRail from "./ScrollRail";
 
 export default function HeroSequence() {
   const sectionRef = useRef<HTMLElement | null>(null);
@@ -86,6 +88,9 @@ export default function HeroSequence() {
             </a>
           </div>
         </CopyOverlay>
+
+        <ScrollHint progress={scrollYProgress} />
+        <ScrollRail progress={scrollYProgress} />
       </div>
     </section>
   );
