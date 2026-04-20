@@ -1,0 +1,262 @@
+export type Category =
+  | "Cloud & Infra"
+  | "Dev Tools"
+  | "Productivity"
+  | "CRM & Marketing"
+  | "Payments"
+  | "India"
+  | "Meta";
+
+export type Program = {
+  id: string;
+  name: string;
+  category: Category;
+  amount: string;
+  description: string;
+  goodFor: string;
+  eligibility?: string;
+  searchQuery: string;
+  officialUrl: string;
+  tags: string[];
+  lastVerified?: string;
+  verifiedAmount?: string;
+  verifiedNotes?: string;
+};
+
+export const CATEGORIES: Category[] = [
+  "Cloud & Infra",
+  "Dev Tools",
+  "Productivity",
+  "CRM & Marketing",
+  "Payments",
+  "India",
+  "Meta",
+];
+
+export const CATEGORY_ACCENT: Record<Category, string> = {
+  "Cloud & Infra": "#3B82F6",
+  "Dev Tools": "#A855F7",
+  Productivity: "#F59E0B",
+  "CRM & Marketing": "#EC4899",
+  Payments: "#10B981",
+  India: "#FF9933",
+  Meta: "#94A3B8",
+};
+
+export const PROGRAMS: Program[] = [
+  {
+    id: "aws-activate",
+    name: "AWS Activate",
+    category: "Cloud & Infra",
+    amount: "Up to $100,000",
+    description: "Cloud credits plus technical support and architecture guidance to build on AWS.",
+    goodFor: "Backend, AI/ML, infra-heavy products",
+    eligibility: "Apply via accelerator/VC partners",
+    searchQuery: "AWS Activate credits",
+    officialUrl: "https://aws.amazon.com/activate/",
+    tags: ["AWS", "cloud", "infra", "AI/ML"],
+  },
+  {
+    id: "google-cloud-startups",
+    name: "Google for Startups Cloud",
+    category: "Cloud & Infra",
+    amount: "Up to $200K (AI: $350K / 2yr)",
+    description: "Google Cloud credits with AI uplift, plus Workspace and Maps discounts.",
+    goodFor: "AI products, Gemini, BigQuery, Firebase",
+    searchQuery: "Google Cloud for Startups",
+    officialUrl: "https://cloud.google.com/startup",
+    tags: ["GCP", "AI", "Gemini", "BigQuery", "Firebase"],
+  },
+  {
+    id: "microsoft-founders-hub",
+    name: "Microsoft for Startups Founders Hub",
+    category: "Cloud & Infra",
+    amount: "Up to $150,000",
+    description: "Tiered Azure credits plus GitHub, OpenAI credits, and tooling bundled.",
+    goodFor: "B2B/SaaS on Azure, OpenAI workloads",
+    searchQuery: "Microsoft for Startups Founders Hub",
+    officialUrl: "https://www.microsoft.com/en-us/startups",
+    tags: ["Azure", "GitHub", "OpenAI"],
+  },
+  {
+    id: "digitalocean-hatch",
+    name: "DigitalOcean Hatch",
+    category: "Cloud & Infra",
+    amount: "Up to $50K–$100K",
+    description: "Up to 12 months of cloud credits — amount depends on partner.",
+    goodFor: "Early-stage MVPs, small to mid SaaS",
+    searchQuery: "DigitalOcean Hatch for startups",
+    officialUrl: "https://www.digitalocean.com/hatch",
+    tags: ["DigitalOcean", "MVP"],
+  },
+  {
+    id: "ovhcloud",
+    name: "OVHcloud Startup Program",
+    category: "Cloud & Infra",
+    amount: "Up to $120,000",
+    description: "Public cloud credits plus 1:1 engineer mentorship. $12K early, $120K scaleups.",
+    goodFor: "EU/India founders wanting cost-efficient infra",
+    searchQuery: "OVHcloud Startup Program",
+    officialUrl: "https://www.ovhcloud.com/en/startup/",
+    tags: ["OVH", "EU", "India"],
+  },
+  {
+    id: "github-startups",
+    name: "GitHub for Startups",
+    category: "Dev Tools",
+    amount: "20 seats, 12 months free",
+    description: "GitHub Enterprise seats for early-stage startups, plus discounted Advanced Security.",
+    goodFor: "Code reviews, CI/CD, security from day one",
+    searchQuery: "GitHub for Startups",
+    officialUrl: "https://github.com/enterprise/startups",
+    tags: ["GitHub", "CI/CD", "security"],
+  },
+  {
+    id: "mongodb-startups",
+    name: "MongoDB for Startups",
+    category: "Dev Tools",
+    amount: "Atlas credits + AI tokens",
+    description: "Atlas credits, AI model tokens, and 1:1 technical guidance. 50% more credits in 2025.",
+    goodFor: "Scalable managed DB from MVP to scale",
+    searchQuery: "MongoDB for Startups program",
+    officialUrl: "https://www.mongodb.com/startups",
+    tags: ["MongoDB", "Atlas", "AI"],
+  },
+  {
+    id: "posthog-startups",
+    name: "PostHog for Startups",
+    category: "Dev Tools",
+    amount: "Up to $50,000",
+    description: "Product analytics, feature flags, and session replay on one platform.",
+    goodFor: "Avoiding Amplitude + LaunchDarkly + surveys stitching",
+    eligibility: "Funding and age caps apply",
+    searchQuery: "PostHog startups program",
+    officialUrl: "https://posthog.com/startups",
+    tags: ["analytics", "feature flags", "session replay"],
+  },
+  {
+    id: "notion-startups",
+    name: "Notion for Startups",
+    category: "Productivity",
+    amount: "6 months free (~$12K value)",
+    description: "Business plan with Notion AI free for 6 months — docs, roadmap, CRM, wiki.",
+    goodFor: "Roadmap, investor updates, CRM, docs in one place",
+    searchQuery: "Notion for Startups apply",
+    officialUrl: "https://www.notion.com/startups",
+    tags: ["docs", "wiki", "AI"],
+  },
+  {
+    id: "freshworks-startups",
+    name: "Freshworks for Startups",
+    category: "CRM & Marketing",
+    amount: "Up to 90% off / $10K (IN)",
+    description: "Freshdesk, Freshsales, and the full suite with deep startup discounts.",
+    goodFor: "Support, CRM, and sales stack for B2B/B2C",
+    eligibility: "DPIIT-recognized Indian startups get up to $10K",
+    searchQuery: "Freshworks for Startups",
+    officialUrl: "https://www.freshworks.com/startups/",
+    tags: ["CRM", "support", "sales", "India"],
+  },
+  {
+    id: "zoho-startups",
+    name: "Zoho for Startups",
+    category: "Productivity",
+    amount: "~₹2,00,000 + ₹1,00,000 promo",
+    description: "Zoho Wallet credits for the full Zoho One suite (CRM, finance, HR, more).",
+    goodFor: "All-in-one SaaS stack at very low cost",
+    eligibility: "Via Startup India / incubators",
+    searchQuery: "Zoho for Startups",
+    officialUrl: "https://www.zoho.com/startups/",
+    tags: ["CRM", "finance", "HR", "India"],
+  },
+  {
+    id: "miro-slack-airtable",
+    name: "Miro / Slack / Airtable",
+    category: "Productivity",
+    amount: "Discounts + extended free tiers",
+    description: "Startup or nonprofit plans with discounts — often via accelerators or VC hub programs.",
+    goodFor: "Whiteboarding, chat, no-code databases",
+    searchQuery: "Miro for Startups Slack for Startups Airtable for Startups",
+    officialUrl: "https://miro.com/startup-program/",
+    tags: ["whiteboard", "chat", "no-code"],
+  },
+  {
+    id: "hubspot-startups",
+    name: "HubSpot for Startups",
+    category: "CRM & Marketing",
+    amount: "Up to 75% off Y1",
+    description: "CRM, Marketing, Sales, and Service in one platform with year 2 and 3 discounts.",
+    goodFor: "B2B SaaS, agencies, funnel + automation",
+    eligibility: "Via VC/accelerator partners",
+    searchQuery: "HubSpot for Startups apply",
+    officialUrl: "https://www.hubspot.com/startups",
+    tags: ["CRM", "marketing", "B2B"],
+  },
+  {
+    id: "ad-credits",
+    name: "Ad Credits — Google, Meta, TikTok, LinkedIn, Reddit",
+    category: "CRM & Marketing",
+    amount: "Varies — vouchers & coupons",
+    description: "Ad credits via special offers or startup/VC/incubator partner deals.",
+    goodFor: "Paid acquisition once you have a working funnel",
+    searchQuery: "Google Ads startup credits Meta ad credits TikTok Ads credit",
+    officialUrl: "https://www.facebook.com/business/m/meta-credits",
+    tags: ["ads", "paid acquisition"],
+  },
+  {
+    id: "stripe-atlas",
+    name: "Stripe Atlas & Startup Perks",
+    category: "Payments",
+    amount: "$2,500 + $50K partner perks",
+    description: "US company incorporation, banking, and Stripe setup. Partner discounts include Mercury, AWS.",
+    goodFor: "Global SaaS, US-incorporated startups selling worldwide",
+    searchQuery: "Stripe Atlas",
+    officialUrl: "https://stripe.com/atlas",
+    tags: ["payments", "incorporation", "US"],
+  },
+  {
+    id: "razorpay-rize",
+    name: "Razorpay Startup Perks & Rize",
+    category: "Payments",
+    amount: "₹30L+ / $300K–$500K",
+    description: "Razorpay Perks: payment credits, zero-balance accounts, payroll. Rize: founder community + $300K–$500K partner credits (AWS, Canva, Notion, more).",
+    goodFor: "Indian startups — payments, banking, SaaS credit bundle",
+    searchQuery: "Razorpay Startup Perks Rize",
+    officialUrl: "https://razorpay.com/rize/",
+    tags: ["payments", "banking", "India", "community"],
+  },
+  {
+    id: "startup-india-partnered",
+    name: "Startup India — Partnered Services",
+    category: "India",
+    amount: "Cloud + SaaS + legal/HR bundles",
+    description: "Government portal with AWS, GCP, DigitalOcean, Freshworks, Zoho, and more partners.",
+    goodFor: "DPIIT-recognized Indian startups",
+    eligibility: "Register as DPIIT-recognized",
+    searchQuery: "Startup India partnered services",
+    officialUrl: "https://www.startupindia.gov.in/content/sih/en/ams-application/partnered-service.html",
+    tags: ["India", "government", "DPIIT"],
+  },
+  {
+    id: "sisfs",
+    name: "Startup India Seed Fund Scheme (SISFS)",
+    category: "India",
+    amount: "Grants + equity capital",
+    description: "Government seed funding for PoC, prototype, trials, and early market entry — distributed via incubators that often bundle extra credits.",
+    goodFor: "Indian founders pre-Seed looking for real capital",
+    searchQuery: "Startup India Seed Fund Scheme SISFS",
+    officialUrl: "https://seedfund.startupindia.gov.in/",
+    tags: ["India", "grants", "seed", "incubator"],
+  },
+  {
+    id: "awesome-startup-credits",
+    name: "Awesome Startup Credits (GitHub list)",
+    category: "Meta",
+    amount: "Dozens of programs",
+    description: "Community-maintained meta-list of startup credit programs: email, monitoring, logging, design, and more.",
+    goodFor: "Finding niche perks — SendGrid, Sentry, Datadog, Figma, Canva",
+    searchQuery: "awesome startup credits GitHub",
+    officialUrl: "https://github.com/agucova/awesome-startup-credits",
+    tags: ["meta", "directory", "community"],
+  },
+];
