@@ -25,8 +25,8 @@ jobs:
       - name: Commit & push if data changed
         run: |
           if [[ -n "$(git status --porcelain data/programs.json)" ]]; then
-            git config user.name "credits-spot-bot"
-            git config user.email "actions@users.noreply.github.com"
+            git config user.name "RagavRida"
+            git config user.email "168271832+RagavRida@users.noreply.github.com"
             git add data/programs.json
             git commit -m "chore: refresh credits data ($(date -u +%Y-%m-%d))"
             git push
