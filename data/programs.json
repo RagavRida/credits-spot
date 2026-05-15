@@ -1,5 +1,5 @@
 {
-  "refreshedAt": "2026-05-14T06:16:16.044Z",
+  "refreshedAt": "2026-05-15T06:23:44.338Z",
   "errors": [],
   "programs": [
     {
@@ -9,7 +9,7 @@
       "amount": "Up to $100,000",
       "description": "Cloud credits plus technical support and architecture guidance to build on AWS.",
       "goodFor": "Backend, AI/ML, infra-heavy products",
-      "eligibility": "Startups at any stage of growth may apply for support through this program.",
+      "eligibility": "Available to startups at any stage of growth or level of funding.",
       "searchQuery": "AWS Activate credits",
       "officialUrl": "https://aws.amazon.com/activate/",
       "tags": [
@@ -18,8 +18,8 @@
         "infra",
         "AI/ML"
       ],
-      "lastVerified": "2026-05-14T06:15:17.324Z",
-      "verifiedAmount": "Up to $100,000 in credits",
+      "lastVerified": "2026-05-15T06:23:18.090Z",
+      "verifiedAmount": "Up to $100,000 in AWS credits",
       "verifiedNotes": "AWS Activate provides startups with cloud credits, technical support, and business mentorship."
     },
     {
@@ -38,10 +38,10 @@
         "BigQuery",
         "Firebase"
       ],
-      "lastVerified": "2026-05-14T06:15:16.652Z",
+      "lastVerified": "2026-05-15T06:23:09.277Z",
       "verifiedAmount": "Up to $350,000 in Cloud credits",
-      "verifiedNotes": "Offers cloud credits and support for early stage startups.",
-      "eligibility": "Seed to Series A startups."
+      "verifiedNotes": "Provides cloud credits and customized support to early stage and growing startups.",
+      "eligibility": "Open to Seed to Series A startups and Series B+ startups."
     },
     {
       "id": "microsoft-founders-hub",
@@ -57,9 +57,9 @@
         "GitHub",
         "OpenAI"
       ],
-      "lastVerified": "2026-05-14T06:15:27.812Z",
+      "lastVerified": "2026-05-15T06:23:13.698Z",
       "verifiedAmount": "up to $150,000 in credits",
-      "verifiedNotes": "Microsoft for Startups provides tools and credits to help startups build, scale, and sell their solutions."
+      "verifiedNotes": "Access AI tools, developer resources, and credits for startups to build, scale, and sell their solutions."
     },
     {
       "id": "digitalocean-hatch",
@@ -74,9 +74,10 @@
         "DigitalOcean",
         "MVP"
       ],
-      "lastVerified": "2026-05-14T06:15:22.389Z",
-      "verifiedNotes": "DigitalOcean Startups provides infrastructure credits and support to AI-focused early-stage startups.",
-      "eligibility": "Prioritize AI-native startups with less than $10M raised."
+      "lastVerified": "2026-05-15T06:23:13.360Z",
+      "verifiedAmount": "12 months of DigitalOcean credits (amount varies)",
+      "verifiedNotes": "DigitalOcean Startups provides credits and support to AI-native startups to help them build and scale.",
+      "eligibility": "Must have raised $10m or less, and create a registered DigitalOcean team account."
     },
     {
       "id": "ovhcloud",
@@ -92,7 +93,7 @@
         "EU",
         "India"
       ],
-      "lastVerified": "2026-05-14T06:15:22.933Z"
+      "lastVerified": "2026-05-15T06:23:12.188Z"
     },
     {
       "id": "github-startups",
@@ -108,10 +109,10 @@
         "CI/CD",
         "security"
       ],
-      "lastVerified": "2026-05-14T06:15:25.062Z",
+      "lastVerified": "2026-05-15T06:23:19.265Z",
       "verifiedAmount": "$10,000 in flexible platform credits",
-      "verifiedNotes": "GitHub for Startups offers eligible startups $10,000 in credits for using GitHub's full Enterprise platform.",
-      "eligibility": "Startups must have received outside funding up to Series B or earlier and be new to GitHub Enterprise."
+      "verifiedNotes": "Eligible startups receive $10,000 in GitHub credits for use across GitHub Enterprise.",
+      "eligibility": "Startups must be affiliated with a partner and have received funding up to Series B."
     },
     {
       "id": "mongodb-startups",
@@ -127,9 +128,9 @@
         "Atlas",
         "AI"
       ],
-      "lastVerified": "2026-05-14T06:15:33.654Z",
-      "verifiedNotes": "MongoDB for Startups offers credits, technical support, and partner opportunities for early-stage to scaling startups.",
-      "eligibility": "Less than 7 years old, Series A or earlier, focused on a single software product, active online presence required."
+      "lastVerified": "2026-05-15T06:23:29.207Z",
+      "verifiedNotes": "MongoDB for Startups offers credits, technical support, and resources to help eligible startups scale their businesses.",
+      "eligibility": "Early-stage, less than 7 years old and Series A or earlier, must have a scalable product."
     },
     {
       "id": "posthog-startups",
@@ -146,7 +147,7 @@
         "feature flags",
         "session replay"
       ],
-      "lastVerified": "2026-05-14T06:15:33.631Z"
+      "lastVerified": "2026-05-15T06:23:23.769Z"
     },
     {
       "id": "notion-startups",
@@ -162,10 +163,10 @@
         "wiki",
         "AI"
       ],
-      "lastVerified": "2026-05-14T06:15:35.847Z",
-      "verifiedAmount": "Up to $12,000 in benefits",
-      "verifiedNotes": "6 months free business plan with Notion AI for eligible startups.",
-      "eligibility": "Non-paying customers with under 100 employees, valid business website, and domain email required."
+      "lastVerified": "2026-05-15T06:23:20.976Z",
+      "verifiedAmount": "Up to $12,000",
+      "verifiedNotes": "Notion offers startup benefits including up to 6 months of free access to their Business plan with AI features.",
+      "eligibility": "Non-paying Notion customers with under 100 employees; must be startup affiliated."
     },
     {
       "id": "freshworks-startups",
@@ -183,7 +184,7 @@
         "sales",
         "India"
       ],
-      "lastVerified": "2026-05-14T06:15:41.014Z"
+      "lastVerified": "2026-05-15T06:23:21.495Z"
     },
     {
       "id": "zoho-startups",
@@ -201,8 +202,7 @@
         "HR",
         "India"
       ],
-      "lastVerified": "2026-05-14T06:15:49.750Z",
-      "verifiedNotes": "The Zoho for Startups program is not currently available in your region."
+      "lastVerified": "2026-05-15T06:23:22.595Z"
     },
     {
       "id": "miro-slack-airtable",
@@ -218,7 +218,7 @@
         "chat",
         "no-code"
       ],
-      "lastVerified": "2026-05-14T06:15:38.768Z"
+      "lastVerified": "2026-05-15T06:23:25.325Z"
     },
     {
       "id": "hubspot-startups",
@@ -227,7 +227,7 @@
       "amount": "Up to 75% off Y1",
       "description": "CRM, Marketing, Sales, and Service in one platform with year 2 and 3 discounts.",
       "goodFor": "B2B SaaS, agencies, funnel + automation",
-      "eligibility": "Startups must be pre-seed, seed or Series A funded, and affiliated with an approved partner.",
+      "eligibility": "Startups must raise Pre-seed, Seed, or Series A funding; must be affiliated with an approved partner.",
       "searchQuery": "HubSpot for Startups apply",
       "officialUrl": "https://www.hubspot.com/startups",
       "tags": [
@@ -235,9 +235,9 @@
         "marketing",
         "B2B"
       ],
-      "lastVerified": "2026-05-14T06:15:45.275Z",
-      "verifiedAmount": "30-90% off the tools you need to scale fast",
-      "verifiedNotes": "HubSpot for Startups offers significant discounts on its platform and resources for eligible startups."
+      "lastVerified": "2026-05-15T06:23:25.179Z",
+      "verifiedAmount": "30-90% off the tools you need to scale fast.",
+      "verifiedNotes": "HubSpot for Startups offers significant discounts on tools and resources for eligible startups."
     },
     {
       "id": "ad-credits",
@@ -252,7 +252,7 @@
         "ads",
         "paid acquisition"
       ],
-      "lastVerified": "2026-05-14T06:15:50.561Z"
+      "lastVerified": "2026-05-15T06:23:33.293Z"
     },
     {
       "id": "stripe-atlas",
@@ -268,10 +268,9 @@
         "incorporation",
         "US"
       ],
-      "lastVerified": "2026-05-14T06:15:43.054Z",
-      "verifiedAmount": "$50k in perks",
-      "verifiedNotes": "Stripe Atlas helps startups incorporate quickly and provides significant perks and discounts.",
-      "eligibility": "Startups incorporating in Delaware; must be a new company."
+      "lastVerified": "2026-05-15T06:23:27.752Z",
+      "verifiedAmount": "$50,000 in perks",
+      "verifiedNotes": "Stripe Atlas helps startups incorporate in Delaware and offers $50,000 in perks."
     },
     {
       "id": "razorpay-rize",
@@ -288,10 +287,10 @@
         "India",
         "community"
       ],
-      "lastVerified": "2026-05-14T06:15:57.061Z",
-      "verifiedAmount": "$11K in credits across GCP, AWS, Azure, OpenAI",
-      "verifiedNotes": "A program supporting early-stage startup founders with resources, community, and incorporation services.",
-      "eligibility": "Open to early-stage founders with no stated fees or conditions."
+      "lastVerified": "2026-05-15T06:23:31.174Z",
+      "verifiedAmount": "$11K credits across GCP, AWS, Azure, OpenAI",
+      "verifiedNotes": "An exclusive program for early-stage startups, offering resources, community support, and streamlined incorporation services.",
+      "eligibility": "Open to early-stage founders; no specific caps or geography mentioned."
     },
     {
       "id": "startup-india-partnered",
@@ -308,7 +307,7 @@
         "government",
         "DPIIT"
       ],
-      "lastVerified": "2026-05-14T06:15:59.422Z"
+      "lastVerified": "2026-05-15T06:23:29.260Z"
     },
     {
       "id": "sisfs",
@@ -325,10 +324,10 @@
         "seed",
         "incubator"
       ],
-      "lastVerified": "2026-05-14T06:16:16.044Z",
+      "lastVerified": "2026-05-15T06:23:35.049Z",
       "verifiedAmount": "₹30,00,000+ in benefits",
-      "verifiedNotes": "Financial assistance for proof of concept, prototype development, product trials, market entry, and commercialization.",
-      "eligibility": "Startups recognized by DPIIT, incorporated not more than 2 years ago."
+      "verifiedNotes": "The scheme provides financial assistance for proof of concept, prototype development, and market entry.",
+      "eligibility": "Startups must be DPIIT recognized and incorporated not more than 2 years ago."
     },
     {
       "id": "awesome-startup-credits",
@@ -344,7 +343,7 @@
         "directory",
         "community"
       ],
-      "lastVerified": "2026-05-14T06:16:04.646Z"
+      "lastVerified": "2026-05-15T06:23:44.338Z"
     }
   ]
 }
