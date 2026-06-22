@@ -1,5 +1,5 @@
 {
-  "refreshedAt": "2026-06-21T07:25:23.902Z",
+  "refreshedAt": "2026-06-22T08:48:20.838Z",
   "errors": [],
   "programs": [
     {
@@ -9,7 +9,7 @@
       "amount": "Up to $100,000",
       "description": "Cloud credits plus technical support and architecture guidance to build on AWS.",
       "goodFor": "Backend, AI/ML, infra-heavy products",
-      "eligibility": "Startup stage: MVP to IPO; additional credits for AI startups.",
+      "eligibility": "No specific eligibility criteria stated.",
       "searchQuery": "AWS Activate credits",
       "officialUrl": "https://aws.amazon.com/activate/",
       "tags": [
@@ -18,9 +18,9 @@
         "infra",
         "AI/ML"
       ],
-      "lastVerified": "2026-06-21T07:24:49.590Z",
+      "lastVerified": "2026-06-22T08:47:39.804Z",
       "verifiedAmount": "Up to $200,000 in AWS Activate Credits",
-      "verifiedNotes": "AWS Activate offers credits, support, and resources for startups."
+      "verifiedNotes": "AWS Activate provides credits and expert support for startups to build their projects."
     },
     {
       "id": "google-cloud-startups",
@@ -38,10 +38,10 @@
         "BigQuery",
         "Firebase"
       ],
-      "lastVerified": "2026-06-21T07:24:46.223Z",
-      "verifiedAmount": "Up to $350,000 in Cloud credits",
-      "verifiedNotes": "The Google for Startups Cloud Program offers cloud credits and support for early stage to Series B+ startups.",
-      "eligibility": "Seed to Series A startups qualify for cloud credits."
+      "lastVerified": "2026-06-22T08:47:42.091Z",
+      "verifiedAmount": "Up to $350,000",
+      "verifiedNotes": "Offers cloud credits and customized solutions for early stage and Series B+ startups.",
+      "eligibility": "Seed to Series A, AI-first startups eligible for up to $350,000."
     },
     {
       "id": "microsoft-founders-hub",
@@ -57,10 +57,9 @@
         "GitHub",
         "OpenAI"
       ],
-      "lastVerified": "2026-06-21T07:24:48.034Z",
+      "lastVerified": "2026-06-22T08:47:39.023Z",
       "verifiedAmount": "up to $150,000 in credits",
-      "verifiedNotes": "Program providing access to AI services, expert guidance, and essential technology for startups.",
-      "eligibility": "Startups looking to build, scale, and sell solutions with Microsoft support."
+      "verifiedNotes": "Microsoft for Startups provides access to AI services, expert guidance, and essential technology for startup growth."
     },
     {
       "id": "digitalocean-hatch",
@@ -75,9 +74,9 @@
         "DigitalOcean",
         "MVP"
       ],
-      "lastVerified": "2026-06-21T07:24:44.242Z",
-      "verifiedNotes": "DigitalOcean Startups provides cloud credits and support to help AI startups scale their services.",
-      "eligibility": "Must have raised $10M or less, have a company website, and use a business email."
+      "lastVerified": "2026-06-22T08:47:47.521Z",
+      "verifiedNotes": "DigitalOcean Startups offers credits and support to empower AI-native startups.",
+      "eligibility": "Must have raised $10m or less and be an AI-native startup."
     },
     {
       "id": "ovhcloud",
@@ -93,7 +92,7 @@
         "EU",
         "India"
       ],
-      "lastVerified": "2026-06-21T07:24:50.950Z"
+      "lastVerified": "2026-06-22T08:47:43.598Z"
     },
     {
       "id": "github-startups",
@@ -109,10 +108,10 @@
         "CI/CD",
         "security"
       ],
-      "lastVerified": "2026-06-21T07:24:50.256Z",
+      "lastVerified": "2026-06-22T08:47:50.651Z",
       "verifiedAmount": "$10,000 in GitHub credits",
-      "verifiedNotes": "Eligible startups receive $10,000 in GitHub credits for using GitHub Enterprise and related tools.",
-      "eligibility": "Startups must be funded up to Series B, new to GitHub Enterprise, and affiliated with a partner."
+      "verifiedNotes": "The program offers $10,000 in credits for eligible startups using GitHub's developer platform.",
+      "eligibility": "Startups must be new to GitHub Enterprise and affiliated with a GitHub for Startups partner."
     },
     {
       "id": "mongodb-startups",
@@ -128,9 +127,9 @@
         "Atlas",
         "AI"
       ],
-      "lastVerified": "2026-06-21T07:24:52.749Z",
-      "verifiedNotes": "MongoDB for Startups offers credits, technical support, and growth resources for early to global stage startups.",
-      "eligibility": "Early-stage startups less than 7 years old, Series A or earlier, not previously in the program."
+      "lastVerified": "2026-06-22T08:47:45.844Z",
+      "verifiedNotes": "MongoDB for Startups offers credits, technical support, and resources for startups at various stages of growth.",
+      "eligibility": "Early-stage startups under 7 years old and Series A or earlier."
     },
     {
       "id": "posthog-startups",
@@ -147,7 +146,7 @@
         "feature flags",
         "session replay"
       ],
-      "lastVerified": "2026-06-21T07:24:55.712Z"
+      "lastVerified": "2026-06-22T08:47:49.599Z"
     },
     {
       "id": "notion-startups",
@@ -163,10 +162,10 @@
         "wiki",
         "AI"
       ],
-      "lastVerified": "2026-06-21T07:24:59.879Z",
-      "verifiedAmount": "Up to $12,000 in benefits",
-      "verifiedNotes": "Notion offers startups free access to their Business plan for up to 6 months with AI tools.",
-      "eligibility": "Non-paying Notion customers with under 100 employees and a valid work email."
+      "lastVerified": "2026-06-22T08:47:51.804Z",
+      "verifiedAmount": "Up to $12,000",
+      "verifiedNotes": "Notion offers startups free access to its Business plan for up to 6 months, alongside various AI tools.",
+      "eligibility": "Non-paying Notion customers with under 100 employees and valid work email."
     },
     {
       "id": "freshworks-startups",
@@ -184,7 +183,7 @@
         "sales",
         "India"
       ],
-      "lastVerified": "2026-06-21T07:24:54.005Z"
+      "lastVerified": "2026-06-22T08:47:54.545Z"
     },
     {
       "id": "zoho-startups",
@@ -202,7 +201,7 @@
         "HR",
         "India"
       ],
-      "lastVerified": "2026-06-21T07:25:14.375Z"
+      "lastVerified": "2026-06-22T08:47:59.516Z"
     },
     {
       "id": "miro-slack-airtable",
@@ -218,7 +217,7 @@
         "chat",
         "no-code"
       ],
-      "lastVerified": "2026-06-21T07:24:55.336Z"
+      "lastVerified": "2026-06-22T08:47:56.084Z"
     },
     {
       "id": "hubspot-startups",
@@ -227,7 +226,7 @@
       "amount": "Up to 75% off Y1",
       "description": "CRM, Marketing, Sales, and Service in one platform with year 2 and 3 discounts.",
       "goodFor": "B2B SaaS, agencies, funnel + automation",
-      "eligibility": "Startups that have raised Pre-seed, Seed, or Series A funding, and are affiliated with approved partners.",
+      "eligibility": "Startups must have raised Pre-seed, Seed or Series A funding and be affiliated with an approved partner.",
       "searchQuery": "HubSpot for Startups apply",
       "officialUrl": "https://www.hubspot.com/startups",
       "tags": [
@@ -235,9 +234,9 @@
         "marketing",
         "B2B"
       ],
-      "lastVerified": "2026-06-21T07:25:03.881Z",
-      "verifiedAmount": "30-90% off on HubSpot tools",
-      "verifiedNotes": "HubSpot for Startups offers significant discounts on its platform for eligible startups."
+      "lastVerified": "2026-06-22T08:48:05.847Z",
+      "verifiedAmount": "30-90% off",
+      "verifiedNotes": "HubSpot for Startups provides discounts on its platform to eligible startups."
     },
     {
       "id": "ad-credits",
@@ -252,7 +251,7 @@
         "ads",
         "paid acquisition"
       ],
-      "lastVerified": "2026-06-21T07:25:12.750Z"
+      "lastVerified": "2026-06-22T08:48:03.852Z"
     },
     {
       "id": "stripe-atlas",
@@ -268,10 +267,10 @@
         "incorporation",
         "US"
       ],
-      "lastVerified": "2026-06-21T07:25:13.092Z",
-      "verifiedAmount": "$50k in perks",
-      "verifiedNotes": "Stripe Atlas offers incorporation services and access to $50k in discounts on startup tools.",
-      "eligibility": "Startups from over 140 countries can apply for the program."
+      "lastVerified": "2026-06-22T08:48:02.716Z",
+      "verifiedAmount": "$50,000 in perks",
+      "verifiedNotes": "Stripe Atlas helps startups incorporate in Delaware while providing access to perks and tools.",
+      "eligibility": "Startups in over 140 countries; no specific funding stage or revenue cap mentioned."
     },
     {
       "id": "razorpay-rize",
@@ -288,10 +287,10 @@
         "India",
         "community"
       ],
-      "lastVerified": "2026-06-21T07:25:08.876Z",
+      "lastVerified": "2026-06-22T08:48:09.027Z",
       "verifiedAmount": "$11K credits across GCP, AWS, Azure, OpenAI",
-      "verifiedNotes": "An early-stage startup program providing incorporation services, community support, and resources for founders.",
-      "eligibility": "Early-stage founders looking to start a business in India."
+      "verifiedNotes": "An exclusive program that supports early-stage startup founders with incorporation and community resources.",
+      "eligibility": "Early-stage founders seeking incorporation services and startup support."
     },
     {
       "id": "startup-india-partnered",
@@ -308,7 +307,7 @@
         "government",
         "DPIIT"
       ],
-      "lastVerified": "2026-06-21T07:25:10.211Z"
+      "lastVerified": "2026-06-22T08:48:20.837Z"
     },
     {
       "id": "sisfs",
@@ -325,9 +324,8 @@
         "seed",
         "incubator"
       ],
-      "lastVerified": "2026-06-21T07:25:23.902Z",
-      "verifiedAmount": "₹30,00,000 in benefits",
-      "verifiedNotes": "Financial assistance for proof of concept, prototype development, product trials, market entry, and commercialization.",
+      "lastVerified": "2026-06-22T08:48:12.106Z",
+      "verifiedNotes": "Financial assistance for startups for proof of concept, prototype development, product trials, market entry, and commercialization.",
       "eligibility": "Startups must be DPIIT-recognized and incorporated within the last 2 years."
     },
     {
@@ -344,7 +342,7 @@
         "directory",
         "community"
       ],
-      "lastVerified": "2026-06-21T07:25:19.419Z"
+      "lastVerified": "2026-06-22T08:48:13.712Z"
     }
   ]
 }
