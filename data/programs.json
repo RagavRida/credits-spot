@@ -1,41 +1,41 @@
 {
-  "refreshedAt": "2026-09-27T08:41:31.351Z",
+  "refreshedAt": "2026-09-28T09:05:24.417Z",
   "errors": [
     {
       "id": "zoho-startups",
-      "error": "HTTP 429: {\"success\":false,\"error\":\"Rate limit exceeded. Consumed (req/min): 11, Remaining (req/min): 0. Upgrade your plan at https://firecrawl.dev/pricing for increased rate limits or please retry after 42s, r"
+      "error": "HTTP 429: {\"success\":false,\"error\":\"Rate limit exceeded. Consumed (req/min): 11, Remaining (req/min): 0. Upgrade your plan at https://firecrawl.dev/pricing for increased rate limits or please retry after 50s, r"
     },
     {
       "id": "miro-slack-airtable",
-      "error": "HTTP 429: {\"success\":false,\"error\":\"Rate limit exceeded. Consumed (req/min): 12, Remaining (req/min): 0. Upgrade your plan at https://firecrawl.dev/pricing for increased rate limits or please retry after 42s, r"
+      "error": "HTTP 429: {\"success\":false,\"error\":\"Rate limit exceeded. Consumed (req/min): 12, Remaining (req/min): 0. Upgrade your plan at https://firecrawl.dev/pricing for increased rate limits or please retry after 50s, r"
     },
     {
       "id": "hubspot-startups",
-      "error": "HTTP 429: {\"success\":false,\"error\":\"Rate limit exceeded. Consumed (req/min): 13, Remaining (req/min): 0. Upgrade your plan at https://firecrawl.dev/pricing for increased rate limits or please retry after 42s, r"
+      "error": "HTTP 429: {\"success\":false,\"error\":\"Rate limit exceeded. Consumed (req/min): 13, Remaining (req/min): 0. Upgrade your plan at https://firecrawl.dev/pricing for increased rate limits or please retry after 50s, r"
     },
     {
       "id": "ad-credits",
-      "error": "HTTP 429: {\"success\":false,\"error\":\"Rate limit exceeded. Consumed (req/min): 14, Remaining (req/min): 0. Upgrade your plan at https://firecrawl.dev/pricing for increased rate limits or please retry after 42s, r"
+      "error": "HTTP 429: {\"success\":false,\"error\":\"Rate limit exceeded. Consumed (req/min): 14, Remaining (req/min): 0. Upgrade your plan at https://firecrawl.dev/pricing for increased rate limits or please retry after 50s, r"
     },
     {
       "id": "stripe-atlas",
-      "error": "HTTP 429: {\"success\":false,\"error\":\"Rate limit exceeded. Consumed (req/min): 15, Remaining (req/min): 0. Upgrade your plan at https://firecrawl.dev/pricing for increased rate limits or please retry after 41s, r"
+      "error": "HTTP 429: {\"success\":false,\"error\":\"Rate limit exceeded. Consumed (req/min): 15, Remaining (req/min): 0. Upgrade your plan at https://firecrawl.dev/pricing for increased rate limits or please retry after 50s, r"
     },
     {
       "id": "razorpay-rize",
-      "error": "HTTP 429: {\"success\":false,\"error\":\"Rate limit exceeded. Consumed (req/min): 16, Remaining (req/min): 0. Upgrade your plan at https://firecrawl.dev/pricing for increased rate limits or please retry after 41s, r"
+      "error": "HTTP 429: {\"success\":false,\"error\":\"Rate limit exceeded. Consumed (req/min): 16, Remaining (req/min): 0. Upgrade your plan at https://firecrawl.dev/pricing for increased rate limits or please retry after 49s, r"
     },
     {
       "id": "startup-india-partnered",
-      "error": "HTTP 429: {\"success\":false,\"error\":\"Rate limit exceeded. Consumed (req/min): 17, Remaining (req/min): 0. Upgrade your plan at https://firecrawl.dev/pricing for increased rate limits or please retry after 41s, r"
+      "error": "HTTP 429: {\"success\":false,\"error\":\"Rate limit exceeded. Consumed (req/min): 17, Remaining (req/min): 0. Upgrade your plan at https://firecrawl.dev/pricing for increased rate limits or please retry after 49s, r"
     },
     {
       "id": "sisfs",
-      "error": "HTTP 429: {\"success\":false,\"error\":\"Rate limit exceeded. Consumed (req/min): 18, Remaining (req/min): 0. Upgrade your plan at https://firecrawl.dev/pricing for increased rate limits or please retry after 41s, r"
+      "error": "HTTP 429: {\"success\":false,\"error\":\"Rate limit exceeded. Consumed (req/min): 18, Remaining (req/min): 0. Upgrade your plan at https://firecrawl.dev/pricing for increased rate limits or please retry after 49s, r"
     },
     {
       "id": "awesome-startup-credits",
-      "error": "HTTP 429: {\"success\":false,\"error\":\"Rate limit exceeded. Consumed (req/min): 19, Remaining (req/min): 0. Upgrade your plan at https://firecrawl.dev/pricing for increased rate limits or please retry after 41s, r"
+      "error": "HTTP 429: {\"success\":false,\"error\":\"Rate limit exceeded. Consumed (req/min): 19, Remaining (req/min): 0. Upgrade your plan at https://firecrawl.dev/pricing for increased rate limits or please retry after 49s, r"
     }
   ],
   "programs": [
@@ -46,7 +46,7 @@
       "amount": "Up to $100,000",
       "description": "Cloud credits plus technical support and architecture guidance to build on AWS.",
       "goodFor": "Backend, AI/ML, infra-heavy products",
-      "eligibility": "Startups at any funding stage looking to build and scale with AWS.",
+      "eligibility": "For startups at any stage looking to build on AWS.",
       "searchQuery": "AWS Activate credits",
       "officialUrl": "https://aws.amazon.com/activate/",
       "tags": [
@@ -55,9 +55,9 @@
         "infra",
         "AI/ML"
       ],
-      "lastVerified": "2026-09-27T08:41:16.415Z",
+      "lastVerified": "2026-09-28T09:05:13.507Z",
       "verifiedAmount": "Up to $200,000 in AWS Activate Credits",
-      "verifiedNotes": "AWS Activate provides startups with credits and expert support for infrastructure and AI/ML."
+      "verifiedNotes": "AWS Activate provides credits and expert support for startups to build and scale their businesses."
     },
     {
       "id": "google-cloud-startups",
@@ -75,10 +75,10 @@
         "BigQuery",
         "Firebase"
       ],
-      "lastVerified": "2026-09-27T08:41:13.930Z",
+      "lastVerified": "2026-09-28T09:05:15.195Z",
       "verifiedAmount": "Up to $350,000 in Cloud credits",
-      "verifiedNotes": "The Google for Startups Cloud Program offers cloud credits and customized support for early stage startups.",
-      "eligibility": "Seed to Series A startups can qualify for the program."
+      "verifiedNotes": "Google for Startups Cloud Program offers cloud credits and support to early stage startups.",
+      "eligibility": "Seed to Series A startups qualify for credits, pre-series A companies are also included."
     },
     {
       "id": "microsoft-founders-hub",
@@ -94,10 +94,9 @@
         "GitHub",
         "OpenAI"
       ],
-      "lastVerified": "2026-09-27T08:41:09.694Z",
+      "lastVerified": "2026-09-28T09:05:16.183Z",
       "verifiedAmount": "up to $150,000 in credits",
-      "verifiedNotes": "Provides startups access to AI models, developer tools, and credits to build and scale.",
-      "eligibility": "No specific eligibility criteria stated."
+      "verifiedNotes": "Microsoft for Startups Founders Hub offers AI tools, technical resources, and credits to support startups in their early development."
     },
     {
       "id": "digitalocean-hatch",
@@ -112,10 +111,10 @@
         "DigitalOcean",
         "MVP"
       ],
-      "lastVerified": "2026-09-27T08:41:12.285Z",
-      "verifiedAmount": "Up to $10,000 monthly limit in credits",
-      "verifiedNotes": "DigitalOcean Startups provides credits and support to empower early-stage AI startups.",
-      "eligibility": "Must have raised $10m or less, AI-native startups only."
+      "lastVerified": "2026-09-28T09:05:14.468Z",
+      "verifiedAmount": "12 months of DigitalOcean credits",
+      "verifiedNotes": "DigitalOcean Startups offers infrastructure credits and support for developers to launch and scale their startups.",
+      "eligibility": "Must be an AI-native startup with $10m or less raised."
     },
     {
       "id": "ovhcloud",
@@ -131,7 +130,7 @@
         "EU",
         "India"
       ],
-      "lastVerified": "2026-09-27T08:41:17.623Z"
+      "lastVerified": "2026-09-28T09:05:21.372Z"
     },
     {
       "id": "github-startups",
@@ -147,10 +146,10 @@
         "CI/CD",
         "security"
       ],
-      "lastVerified": "2026-09-27T08:41:17.827Z",
+      "lastVerified": "2026-09-28T09:05:20.727Z",
       "verifiedAmount": "$10,000 in flexible platform credits",
-      "verifiedNotes": "GitHub for Startups offers $10,000 in credits for eligible startups to use across GitHub tools.",
-      "eligibility": "Startups must be funded up to Series B, new to GitHub Enterprise, and affiliated with a partner."
+      "verifiedNotes": "Eligible startups receive $10,000 in GitHub credits for up to 12 months to use across GitHub's platform.",
+      "eligibility": "Startups must be approved partners, new to GitHub Enterprise, and funded up to Series B."
     },
     {
       "id": "mongodb-startups",
@@ -166,10 +165,9 @@
         "Atlas",
         "AI"
       ],
-      "lastVerified": "2026-09-27T08:41:26.121Z",
-      "verifiedAmount": "$200 billion in combined valuation",
-      "verifiedNotes": "MongoDB for Startups offers support and credits to early-stage, scalable startups.",
-      "eligibility": "Early-stage startups under 7 years old and Series A or earlier."
+      "lastVerified": "2026-09-28T09:05:18.476Z",
+      "verifiedNotes": "MongoDB for Startups offers credits and support to help startups build and scale their products.",
+      "eligibility": "Startups must be less than 7 years old and Series A or earlier."
     },
     {
       "id": "posthog-startups",
@@ -178,7 +176,7 @@
       "amount": "Up to $50,000",
       "description": "Product analytics, feature flags, and session replay on one platform.",
       "goodFor": "Avoiding Amplitude + LaunchDarkly + surveys stitching",
-      "eligibility": "Less than 2 years old and raised less than $5m funding.",
+      "eligibility": "Company must be less than 2 years old and have raised less than $5m in funding.",
       "searchQuery": "PostHog startups program",
       "officialUrl": "https://posthog.com/startups",
       "tags": [
@@ -186,9 +184,9 @@
         "feature flags",
         "session replay"
       ],
-      "lastVerified": "2026-09-27T08:41:27.304Z",
-      "verifiedAmount": "$50,000 in credits while you build a self-driving product",
-      "verifiedNotes": "PostHog for Startups offers $50,000 in credits and exclusive partner perks for early-stage startups."
+      "lastVerified": "2026-09-28T09:05:22.576Z",
+      "verifiedAmount": "$50,000 in credits",
+      "verifiedNotes": "Get $50,000 in PostHog credits, exclusive merch, and $12,000 in partner perks for startups."
     },
     {
       "id": "notion-startups",
@@ -204,10 +202,10 @@
         "wiki",
         "AI"
       ],
-      "lastVerified": "2026-09-27T08:41:30.995Z",
-      "verifiedAmount": "Up to $12,000 for 100 employees",
-      "verifiedNotes": "Offers free access to Notion's Business plan and AI tools for startups to build and scale their operations.",
-      "eligibility": "Non-paying customers under 100 employees with a valid business email qualify."
+      "lastVerified": "2026-09-28T09:05:24.417Z",
+      "verifiedAmount": "Up to $12,000",
+      "verifiedNotes": "Offers free Notion Business plan for startups for up to 6 months.",
+      "eligibility": "Non-paying Notion customers with under 100 employees, must have a valid business email."
     },
     {
       "id": "freshworks-startups",
@@ -225,7 +223,7 @@
         "sales",
         "India"
       ],
-      "lastVerified": "2026-09-27T08:41:31.351Z"
+      "lastVerified": "2026-09-28T09:05:22.675Z"
     },
     {
       "id": "zoho-startups",
