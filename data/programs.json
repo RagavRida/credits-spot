@@ -1,43 +1,6 @@
 {
-  "refreshedAt": "2026-10-09T09:47:17.235Z",
-  "errors": [
-    {
-      "id": "zoho-startups",
-      "error": "HTTP 429: {\"success\":false,\"error\":\"Rate limit exceeded. Consumed (req/min): 11, Remaining (req/min): 0. Upgrade your plan at https://firecrawl.dev/pricing for increased rate limits or please retry after 49s, r"
-    },
-    {
-      "id": "miro-slack-airtable",
-      "error": "HTTP 429: {\"success\":false,\"error\":\"Rate limit exceeded. Consumed (req/min): 12, Remaining (req/min): 0. Upgrade your plan at https://firecrawl.dev/pricing for increased rate limits or please retry after 49s, r"
-    },
-    {
-      "id": "hubspot-startups",
-      "error": "HTTP 429: {\"success\":false,\"error\":\"Rate limit exceeded. Consumed (req/min): 13, Remaining (req/min): 0. Upgrade your plan at https://firecrawl.dev/pricing for increased rate limits or please retry after 49s, r"
-    },
-    {
-      "id": "ad-credits",
-      "error": "HTTP 429: {\"success\":false,\"error\":\"Rate limit exceeded. Consumed (req/min): 14, Remaining (req/min): 0. Upgrade your plan at https://firecrawl.dev/pricing for increased rate limits or please retry after 49s, r"
-    },
-    {
-      "id": "stripe-atlas",
-      "error": "HTTP 429: {\"success\":false,\"error\":\"Rate limit exceeded. Consumed (req/min): 15, Remaining (req/min): 0. Upgrade your plan at https://firecrawl.dev/pricing for increased rate limits or please retry after 48s, r"
-    },
-    {
-      "id": "razorpay-rize",
-      "error": "HTTP 429: {\"success\":false,\"error\":\"Rate limit exceeded. Consumed (req/min): 16, Remaining (req/min): 0. Upgrade your plan at https://firecrawl.dev/pricing for increased rate limits or please retry after 48s, r"
-    },
-    {
-      "id": "startup-india-partnered",
-      "error": "HTTP 429: {\"success\":false,\"error\":\"Rate limit exceeded. Consumed (req/min): 17, Remaining (req/min): 0. Upgrade your plan at https://firecrawl.dev/pricing for increased rate limits or please retry after 48s, r"
-    },
-    {
-      "id": "sisfs",
-      "error": "HTTP 429: {\"success\":false,\"error\":\"Rate limit exceeded. Consumed (req/min): 18, Remaining (req/min): 0. Upgrade your plan at https://firecrawl.dev/pricing for increased rate limits or please retry after 48s, r"
-    },
-    {
-      "id": "awesome-startup-credits",
-      "error": "HTTP 429: {\"success\":false,\"error\":\"Rate limit exceeded. Consumed (req/min): 19, Remaining (req/min): 0. Upgrade your plan at https://firecrawl.dev/pricing for increased rate limits or please retry after 48s, r"
-    }
-  ],
+  "refreshedAt": "2026-10-10T09:11:52.722Z",
+  "errors": [],
   "programs": [
     {
       "id": "aws-activate",
@@ -55,9 +18,9 @@
         "infra",
         "AI/ML"
       ],
-      "lastVerified": "2026-10-09T09:46:54.738Z",
+      "lastVerified": "2026-10-10T09:11:36.883Z",
       "verifiedAmount": "Up to $200,000 in AWS Activate Credits",
-      "verifiedNotes": "AWS Activate offers credits and expert support to help startups build and grow using AWS."
+      "verifiedNotes": "AWS Activate provides credits and support for startups building products on AWS."
     },
     {
       "id": "google-cloud-startups",
@@ -75,10 +38,10 @@
         "BigQuery",
         "Firebase"
       ],
-      "lastVerified": "2026-10-09T09:46:59.981Z",
+      "lastVerified": "2026-10-10T09:11:36.956Z",
       "verifiedAmount": "Up to $350,000 in Cloud credits",
-      "verifiedNotes": "Early stage startups can receive cloud credits and customized support through the Google for Startups Cloud Program.",
-      "eligibility": "Seed to Series A startups qualify for up to $350,000 in credits."
+      "verifiedNotes": "The Google for Startups Cloud Program offers cloud credits and tailored solutions for early-stage startups.",
+      "eligibility": "For Seed to Series A startups; customized support for Series B+ startups."
     },
     {
       "id": "microsoft-founders-hub",
@@ -94,9 +57,9 @@
         "GitHub",
         "OpenAI"
       ],
-      "lastVerified": "2026-10-09T09:46:54.306Z",
+      "lastVerified": "2026-10-10T09:11:36.583Z",
       "verifiedAmount": "up to $150,000 in credits",
-      "verifiedNotes": "Provides startups with access to AI models, developer tools, and credits for building and scaling their business."
+      "verifiedNotes": "The Microsoft for Startups Founders Hub provides resources and credits to help startups build and scale their businesses."
     },
     {
       "id": "digitalocean-hatch",
@@ -111,10 +74,10 @@
         "DigitalOcean",
         "MVP"
       ],
-      "lastVerified": "2026-10-09T09:47:03.457Z",
+      "lastVerified": "2026-10-10T09:11:36.758Z",
       "verifiedAmount": "$10,000 monthly limit",
-      "verifiedNotes": "DigitalOcean Startups provides credits and support to empower AI-native startups.",
-      "eligibility": "Must have raised $10m or less and have a company website with a business email."
+      "verifiedNotes": "DigitalOcean Startups provides credits and resources for AI-native startups to build, launch, and scale their projects.",
+      "eligibility": "Must have raised $10m or less and have a company website."
     },
     {
       "id": "ovhcloud",
@@ -130,7 +93,7 @@
         "EU",
         "India"
       ],
-      "lastVerified": "2026-10-09T09:46:55.657Z"
+      "lastVerified": "2026-10-10T09:11:42.271Z"
     },
     {
       "id": "github-startups",
@@ -146,10 +109,10 @@
         "CI/CD",
         "security"
       ],
-      "lastVerified": "2026-10-09T09:47:01.418Z",
+      "lastVerified": "2026-10-10T09:11:38.064Z",
       "verifiedAmount": "$10,000 in flexible platform credits",
-      "verifiedNotes": "Startups receive $10,000 in GitHub credits to use across various GitHub Enterprise services for up to 12 months.",
-      "eligibility": "Startups must be affiliated with a partner and have received outside funding (up to Series B or earlier)."
+      "verifiedNotes": "Eligible startups receive $10,000 in GitHub credits to use across GitHub's full enterprise platform for up to 12 months.",
+      "eligibility": "Startups must be funded up to Series B, new to GitHub Enterprise, and partner-affiliated."
     },
     {
       "id": "mongodb-startups",
@@ -165,10 +128,10 @@
         "Atlas",
         "AI"
       ],
-      "lastVerified": "2026-10-09T09:47:04.914Z",
-      "verifiedAmount": "Up to $200,000 in credits and support",
-      "verifiedNotes": "MongoDB for Startups provides credits, technical expertise, and support for all startup stages.",
-      "eligibility": "Startups must be less than 7 years old and Series A or earlier."
+      "lastVerified": "2026-10-10T09:11:38.514Z",
+      "verifiedAmount": "Atlas credits and Voyage AI tokens",
+      "verifiedNotes": "MongoDB for Startups offers credits, technical expertise, and support for startups at every growth stage.",
+      "eligibility": "Startups must be early-stage, less than 7 years old, and Series A or earlier."
     },
     {
       "id": "posthog-startups",
@@ -177,7 +140,7 @@
       "amount": "Up to $50,000",
       "description": "Product analytics, feature flags, and session replay on one platform.",
       "goodFor": "Avoiding Amplitude + LaunchDarkly + surveys stitching",
-      "eligibility": "Company must be under 2 years old and raised less than $5m in funding.",
+      "eligibility": "Companies must be under 2 years old and have raised less than $5m in funding.",
       "searchQuery": "PostHog startups program",
       "officialUrl": "https://posthog.com/startups",
       "tags": [
@@ -185,9 +148,9 @@
         "feature flags",
         "session replay"
       ],
-      "lastVerified": "2026-10-09T09:47:17.235Z",
-      "verifiedAmount": "$50,000 in credits while you build a self-driving product",
-      "verifiedNotes": "Get $50,000 in PostHog credits plus $12,000 in partner perks for eligible startups."
+      "lastVerified": "2026-10-10T09:11:38.415Z",
+      "verifiedAmount": "$50,000 in credits",
+      "verifiedNotes": "Get $50,000 in PostHog credits, exclusive merch, and partner perks worth $12,000+."
     },
     {
       "id": "notion-startups",
@@ -203,10 +166,10 @@
         "wiki",
         "AI"
       ],
-      "lastVerified": "2026-10-09T09:47:07.933Z",
+      "lastVerified": "2026-10-10T09:11:39.407Z",
       "verifiedAmount": "Up to $12,000",
-      "verifiedNotes": "Get 6 months free access to Notion with AI features for eligible startups.",
-      "eligibility": "Non-paying Notion customers with under 100 employees and affiliated with select startup partners."
+      "verifiedNotes": "6 months free access to Notion's Business plan with AI included for eligible startups.",
+      "eligibility": "Non-paying Notion customers with under 100 employees and a valid work email."
     },
     {
       "id": "freshworks-startups",
@@ -224,7 +187,7 @@
         "sales",
         "India"
       ],
-      "lastVerified": "2026-10-09T09:47:09.439Z"
+      "lastVerified": "2026-10-10T09:11:39.718Z"
     },
     {
       "id": "zoho-startups",
@@ -241,7 +204,8 @@
         "finance",
         "HR",
         "India"
-      ]
+      ],
+      "lastVerified": "2026-10-10T09:11:43.467Z"
     },
     {
       "id": "miro-slack-airtable",
@@ -256,7 +220,8 @@
         "whiteboard",
         "chat",
         "no-code"
-      ]
+      ],
+      "lastVerified": "2026-10-10T09:11:44.485Z"
     },
     {
       "id": "hubspot-startups",
@@ -265,14 +230,17 @@
       "amount": "Up to 75% off Y1",
       "description": "CRM, Marketing, Sales, and Service in one platform with year 2 and 3 discounts.",
       "goodFor": "B2B SaaS, agencies, funnel + automation",
-      "eligibility": "Via VC/accelerator partners",
+      "eligibility": "Startups must raise pre-seed, seed, or Series A funding; affiliated with an approved partner.",
       "searchQuery": "HubSpot for Startups apply",
       "officialUrl": "https://www.hubspot.com/startups",
       "tags": [
         "CRM",
         "marketing",
         "B2B"
-      ]
+      ],
+      "lastVerified": "2026-10-10T09:11:41.455Z",
+      "verifiedAmount": "Save 30-90% on the tools you need to scale fast.",
+      "verifiedNotes": "HubSpot for Startups offers up to 90% off HubSpot products for eligible startups."
     },
     {
       "id": "ad-credits",
@@ -286,7 +254,8 @@
       "tags": [
         "ads",
         "paid acquisition"
-      ]
+      ],
+      "lastVerified": "2026-10-10T09:11:51.200Z"
     },
     {
       "id": "stripe-atlas",
@@ -301,7 +270,11 @@
         "payments",
         "incorporation",
         "US"
-      ]
+      ],
+      "lastVerified": "2026-10-10T09:11:43.618Z",
+      "verifiedAmount": "$50,000 in perks",
+      "verifiedNotes": "Stripe Atlas offers incorporation, tax ID, and access to $50,000+ in perks to startups.",
+      "eligibility": "Startups in over 175 countries that want to incorporate and access Stripe services."
     },
     {
       "id": "razorpay-rize",
@@ -317,7 +290,11 @@
         "banking",
         "India",
         "community"
-      ]
+      ],
+      "lastVerified": "2026-10-10T09:11:48.823Z",
+      "verifiedAmount": "$11K credits across GCP, AWS, Azure, OpenAI",
+      "verifiedNotes": "An exclusive program supporting early-stage founders with company registration, community, and resources.",
+      "eligibility": "For early-stage startup founders. Non-specifically stated."
     },
     {
       "id": "startup-india-partnered",
@@ -333,7 +310,8 @@
         "India",
         "government",
         "DPIIT"
-      ]
+      ],
+      "lastVerified": "2026-10-10T09:11:52.721Z"
     },
     {
       "id": "sisfs",
@@ -349,7 +327,11 @@
         "grants",
         "seed",
         "incubator"
-      ]
+      ],
+      "lastVerified": "2026-10-10T09:11:45.959Z",
+      "verifiedAmount": "₹10,00,000 in financial assistance",
+      "verifiedNotes": "The SISFS provides financial assistance for proof of concept, prototype development, and commercialization of innovative ideas.",
+      "eligibility": "Startups must be DPIIT-recognized and incorporated not more than 2 years ago."
     },
     {
       "id": "awesome-startup-credits",
@@ -364,7 +346,8 @@
         "meta",
         "directory",
         "community"
-      ]
+      ],
+      "lastVerified": "2026-10-10T09:11:50.255Z"
     }
   ]
 }
