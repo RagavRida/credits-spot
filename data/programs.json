@@ -1,9 +1,9 @@
 {
-  "refreshedAt": "2026-10-25T07:54:24.084Z",
+  "refreshedAt": "2026-10-26T08:14:50.782Z",
   "errors": [
     {
       "id": "zoho-startups",
-      "error": "HTTP 429: {\"success\":false,\"error\":\"Rate limit exceeded. Consumed (req/min): 11, Remaining (req/min): 0. Upgrade your plan at https://firecrawl.dev/pricing for increased rate limits or please retry after 53s, r"
+      "error": "HTTP 429: {\"success\":false,\"error\":\"Rate limit exceeded. Consumed (req/min): 11, Remaining (req/min): 0. Upgrade your plan at https://firecrawl.dev/pricing for increased rate limits or please retry after 54s, r"
     },
     {
       "id": "miro-slack-airtable",
@@ -46,7 +46,7 @@
       "amount": "Up to $100,000",
       "description": "Cloud credits plus technical support and architecture guidance to build on AWS.",
       "goodFor": "Backend, AI/ML, infra-heavy products",
-      "eligibility": "Eligibility for startups at any stage of growth or funding level.",
+      "eligibility": "Startups in any growth stage can apply for credits to offset costs.",
       "searchQuery": "AWS Activate credits",
       "officialUrl": "https://aws.amazon.com/activate/",
       "tags": [
@@ -55,9 +55,9 @@
         "infra",
         "AI/ML"
       ],
-      "lastVerified": "2026-10-25T07:54:10.732Z",
+      "lastVerified": "2026-10-26T08:14:40.812Z",
       "verifiedAmount": "Up to $200,000 in AWS Activate Credits",
-      "verifiedNotes": "AWS Activate provides credits and expert support to help startups build and grow their ventures."
+      "verifiedNotes": "AWS Activate offers credits and support for startups to build and scale using AWS resources."
     },
     {
       "id": "google-cloud-startups",
@@ -75,9 +75,9 @@
         "BigQuery",
         "Firebase"
       ],
-      "lastVerified": "2026-10-25T07:54:11.159Z",
-      "verifiedAmount": "Up to $350,000 in Cloud credits over two years.",
-      "verifiedNotes": "Access up to $350,000 in Cloud credits, AI models, and technical support for early-stage startups.",
+      "lastVerified": "2026-10-26T08:14:39.268Z",
+      "verifiedAmount": "Up to $350,000 in credits",
+      "verifiedNotes": "Offers Google Cloud credits, AI models, and support for startups in early funding stages.",
       "eligibility": "For startups with Pre-Seed to Series A funding, founded within the last 3-5 years."
     },
     {
@@ -94,9 +94,10 @@
         "GitHub",
         "OpenAI"
       ],
-      "lastVerified": "2026-10-25T07:54:13.840Z",
+      "lastVerified": "2026-10-26T08:14:42.042Z",
       "verifiedAmount": "up to $150,000 in credits",
-      "verifiedNotes": "Microsoft for Startups provides access to AI services, technical resources, and credits to help startups build, scale, and sell."
+      "verifiedNotes": "Microsoft for Startups offers access to AI tools, credits, and expert guidance for scaling businesses.",
+      "eligibility": "Startups aiming to build fast, scale smart, and sell more."
     },
     {
       "id": "digitalocean-hatch",
@@ -111,10 +112,10 @@
         "DigitalOcean",
         "MVP"
       ],
-      "lastVerified": "2026-10-25T07:54:15.372Z",
-      "verifiedAmount": "Up to $10,000 monthly in DigitalOcean credits",
-      "verifiedNotes": "DigitalOcean Startups provides credits and support for AI-native startups to build and scale their infrastructure.",
-      "eligibility": "Must be an AI-native startup with $10m or less raised."
+      "lastVerified": "2026-10-26T08:14:36.952Z",
+      "verifiedAmount": "Up to $10,000 monthly limit",
+      "verifiedNotes": "DigitalOcean Startups provides cloud credits and support for AI-native startups to build and scale their infrastructure.",
+      "eligibility": "Must have raised $10m or less and have a company website."
     },
     {
       "id": "ovhcloud",
@@ -130,7 +131,7 @@
         "EU",
         "India"
       ],
-      "lastVerified": "2026-10-25T07:54:20.299Z"
+      "lastVerified": "2026-10-26T08:14:37.979Z"
     },
     {
       "id": "github-startups",
@@ -146,10 +147,10 @@
         "CI/CD",
         "security"
       ],
-      "lastVerified": "2026-10-25T07:54:12.778Z",
-      "verifiedAmount": "$10,000 in GitHub credits",
-      "verifiedNotes": "Eligible startups receive $10,000 in credits to use across GitHub's platform for up to 12 months.",
-      "eligibility": "Startups must be funded (up to Series B), new to GitHub Enterprise, and affiliated with a partner."
+      "lastVerified": "2026-10-26T08:14:42.086Z",
+      "verifiedAmount": "$10,000 in flexible platform credits",
+      "verifiedNotes": "Eligible startups receive $10,000 in GitHub credits for use across the GitHub platform.",
+      "eligibility": "Must be affiliated with a partner and have received outside funding up to Series B or earlier."
     },
     {
       "id": "mongodb-startups",
@@ -165,9 +166,10 @@
         "Atlas",
         "AI"
       ],
-      "lastVerified": "2026-10-25T07:54:20.228Z",
-      "verifiedNotes": "MongoDB for Startups provides credits, technical support, and go-to-market opportunities tailored for various startup stages.",
-      "eligibility": "Startups must be less than 7 years old and Series A or earlier, focused on a software product, and new to the program."
+      "lastVerified": "2026-10-26T08:14:40.677Z",
+      "verifiedAmount": "Up to $200,000 in credits",
+      "verifiedNotes": "MongoDB for Startups provides support, credits, and technical expertise to early-stage companies building scalable products.",
+      "eligibility": "Startups must be less than 7 years old and Series A or earlier."
     },
     {
       "id": "posthog-startups",
@@ -176,7 +178,7 @@
       "amount": "Up to $50,000",
       "description": "Product analytics, feature flags, and session replay on one platform.",
       "goodFor": "Avoiding Amplitude + LaunchDarkly + surveys stitching",
-      "eligibility": "Less than 2 years old and raised less than $5m funding.",
+      "eligibility": "Company must be less than 2 years old with less than $5m funding.",
       "searchQuery": "PostHog startups program",
       "officialUrl": "https://posthog.com/startups",
       "tags": [
@@ -184,9 +186,9 @@
         "feature flags",
         "session replay"
       ],
-      "lastVerified": "2026-10-25T07:54:15.313Z",
+      "lastVerified": "2026-10-26T08:14:50.782Z",
       "verifiedAmount": "$50,000 in PostHog credit",
-      "verifiedNotes": "Startup program with $50,000 in credits, partner perks worth $12,000+, and exclusive merch."
+      "verifiedNotes": "Get $50,000 in PostHog credits and $12,000 in partner perks to build better products."
     },
     {
       "id": "notion-startups",
@@ -202,10 +204,10 @@
         "wiki",
         "AI"
       ],
-      "lastVerified": "2026-10-25T07:54:16.698Z",
+      "lastVerified": "2026-10-26T08:14:47.445Z",
       "verifiedAmount": "Up to $12,000 for 100 employees",
-      "verifiedNotes": "Offers tools and benefits to non-paying startups including free months of Notion AI usage.",
-      "eligibility": "Must be a non-paying Notion customer with under 100 employees and a valid business email."
+      "verifiedNotes": "6 months free Notion AI for startups with less than 100 employees, plus additional perks.",
+      "eligibility": "Non-paying Notion customers with under 100 employees and a valid work email."
     },
     {
       "id": "freshworks-startups",
@@ -223,7 +225,7 @@
         "sales",
         "India"
       ],
-      "lastVerified": "2026-10-25T07:54:24.084Z"
+      "lastVerified": "2026-10-26T08:14:43.174Z"
     },
     {
       "id": "zoho-startups",
